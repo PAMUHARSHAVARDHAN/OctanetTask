@@ -1,0 +1,101 @@
+header{
+    background-image:url('mountains.jpg');
+
+    width: 100%;
+    height:100vh ;
+    background-size: cover;
+    font-family: sans-serif;
+}    
+nav{
+    width:100%;
+    height:100px;
+    color: white ;
+    display:flex;
+    justify-content: space-around ;
+    align-items: center;
+    
+   
+    
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+
+
+.menu a{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;}
+.menu a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+.register button{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color:indianred;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid indianred;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.register button:hover{
+    background: #fff;
+    color: #000;
+}
+.hv{
+    max-width:650px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.hv span{
+    letter-spacing: 5px;
+
+}
+.hv h1{
+    font-family:"", ;
+     font-size: 2em;
+
+}
+.hv button{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color:indianred;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid indianred;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hv button:hover{
+    background: #fff;
+    color: #000;
+  }
